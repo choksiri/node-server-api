@@ -23,10 +23,10 @@ app.get('/', function (req, res) {
 
 
 let dbConn = mysql.createConnection({
-    host: 'bavjcvk16xaokour9zkq-mysql.services.clever-cloud.com',
-    user: 'udvdmo2skwq3ucjk',
-    password: 'uRZ1sBu4FJY0T1IigD7',
-    database: 'bavjcvk16xaokour9zkq',
+    host: 'bq5iivd244wtkdlabzny-mysql.services.clever-cloud.com',
+    user: 'uvkd5fdioehpnqw9',
+    password: 'oJwfSGc7RmFgNaGjbfEI',
+    database: 'bq5iivd244wtkdlabzny',
 });
 
 dbConn.connect((err) => {
@@ -413,8 +413,8 @@ app.delete('/delproblem/:pb_id', function(req,res){
 
 
 // //set port
-app.listen(21373, function () {
-    console.log('Node app is running on port 21373');
+app.listen(3306, function () {
+    console.log('Node app is running on port 3306');
 
 });
 
