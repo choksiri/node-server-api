@@ -13,7 +13,7 @@ app.use(express.urlencoded({
 
 
 app.get('/',(req, res) =>{
-    res.send('This is my API running...krabb')
+    res.send('This is my API running...krab')
 });
 
 
